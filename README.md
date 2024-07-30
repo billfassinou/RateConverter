@@ -1,6 +1,6 @@
-# RateConverter
+# Open Rate Converter
 
-RateConverter est une API de conversion de devises innovante qui automatise la récupération des taux de change à partir des sites officiels de devises. Conçue pour être rapide et fiable, cette API utilise des techniques de scrapping pour fournir des taux de conversion en temps réel et garantir que vous disposez des informations les plus précises pour vos besoins financiers et commerciaux.
+Open Rate Converter est une API de conversion de devises innovante qui automatise la récupération des taux de change à partir des sites officiels de devises. Conçue pour être rapide et fiable, cette API utilise des techniques de scrapping pour fournir des taux de conversion en temps réel et garantir que vous disposez des informations les plus précises pour vos besoins financiers et commerciaux.
 
 ## Fonctionnalités
 
