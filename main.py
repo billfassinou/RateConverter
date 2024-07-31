@@ -42,7 +42,7 @@ async def get_cours_devise(Devise: str, Date: str):
 # API du scraping de conversion des devises
 @app.get('/api/convertion_devise')
 async def convert(Montant: int, Devise: str):
-    url = f'https://www.xe.com/fr/currencyconverter/convert/?Amount={Montant}&From={Devise}&To={XOF}'
+    url = f'https://www.xe.com/fr/currencyconverter/convert/?Amount={Montant}&From={Devise}&To=XOF'
     try:
         result = scraper1.get_donnee_converties(url)
         montant_sortis = result[0]['Montant_sortis']
