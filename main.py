@@ -46,7 +46,7 @@ async def convert(Montant: int, Devise_montant: str, Devise_voulue: str):
     try:
         result = scraper1.get_donnee_converties(url)
         montant_sortis = result[0]['Montant_sortis']
-        return {'Resultat en FCFA': f'{montant_sortis}'}
+        return f"Resultat en {Devise_voulue}: {montant_sortis}"
     
     except ValueError as e:
         raise HTTPException(status_code=400, detail=str(e))
