@@ -1,4 +1,3 @@
-import json
 import requests
 from bs4 import BeautifulSoup
 
@@ -22,7 +21,7 @@ class CurrencyConverterScraper:
             montant_sortis = elt.find('p', class_='sc-e08d6cef-1 fwpLse').text
             data.append({
                 'Montant_entres': montant_entres,
-                'XOF': devise,
+                'Devise': devise,
                 'Montant_sortis': montant_sortis
             })
         

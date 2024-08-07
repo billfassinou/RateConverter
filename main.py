@@ -3,7 +3,7 @@ from scraper import CurrencyConverterScraper
 
 app = FastAPI()
 
-# Initialisation de l'instance de la classe avec l'URL du site
+# Initialisation de l'instance de la classe contenant la methode du scraping
 scraper = CurrencyConverterScraper()
 
 # Accueil
