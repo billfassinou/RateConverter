@@ -14,12 +14,12 @@ Open Rate Converter est une API de conversion de devises innovante qui automatis
 
 1. Clonez le dépôt :
    ```bash
-   git clone https://github.com/[votre-nom-d-utilisateur]/[nom-du-projet].git
+   git clone https://github.com/billfassinou/RateConverter.git
    ```
 
 2. Accédez au répertoire du projet :
    ```bash
-   cd [nom-du-projet]
+   cd RateConverter
    ```
 
 3. Installez les dépendances :
@@ -34,7 +34,7 @@ Open Rate Converter est une API de conversion de devises innovante qui automatis
 Exemple d’appel API pour obtenir un taux de conversion :
 
 ```bash
-curl -X GET "https://api.[nom-du-projet].com/convert?from=USD&to=EUR&amount=100"
+curl -X GET "http://127.0.0.1:8000/api/convertion_devise?Amont=2&Currency_to_convert=USD&Expected_Currency=NGN"
 ```
 
 Pour plus d'exemples et une guide complet, consultez la [documentation](docs/README.md).
